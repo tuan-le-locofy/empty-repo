@@ -27,18 +27,9 @@ const CardContainer: FunctionComponent<CardContainerType> = ({
         <div className={styles.resultsTitle}>
           <div className={styles.result}>
             <b className={styles.freehandLosAngeles}>{hotelName}</b>
-            <div className={styles.bedInQuad}>{roomTypeDescription}</div>
+            <div className={styles.bedInQuad}>{roomTypeDescription}aaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
             <div className={styles.review}>
               <div className={styles.reviews}>{reviewCount}</div>
-              <div className={styles.stars}>
-                <div className={styles.div}>{rating}</div>
-                <img
-                  className={styles.vectorIcon}
-                  alt=""
-                  src={productDimensions}
-                />
-              </div>
-            </div>
           </div>
         </div>
         <div className={styles.priceAndCta}>
